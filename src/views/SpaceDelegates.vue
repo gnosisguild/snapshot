@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ExtendedSpace } from '@/helpers/interfaces';
 import { useInfiniteScroll, refDebounced } from '@vueuse/core';
-import { DelegationTypes } from '../helpers/delegation/index';
+import { DelegationTypes } from '';
 
 const props = defineProps<{
   space: ExtendedSpace;
